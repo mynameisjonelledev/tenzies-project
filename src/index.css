@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Inter, san-serif;
+  background-color: #0B2434;
+  padding: 20px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.main-container {
+  background-color: #F5F5F5;
+  height: 100%;
+  border-radius: 5px;
+}
+
+div#root {
+  height: 100%;
+}
