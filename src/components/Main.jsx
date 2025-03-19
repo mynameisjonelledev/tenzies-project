@@ -3,6 +3,8 @@ import { useState } from "react";
 
 export function Main() {
 
+  const [dice, setDice] = useState(generateAllNewDice());
+
   function generateAllNewDice() {
     const generatedArray = [];
 
@@ -15,6 +17,8 @@ export function Main() {
   }
 
   console.log(generateAllNewDice());
+
+  const diceElements = dice.map(num => <Die value={num} />)
 
   
   return(
